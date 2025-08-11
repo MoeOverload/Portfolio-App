@@ -1,0 +1,64 @@
+body{
+    color:black;
+    background-color: white;
+}
+#heroSection{
+    text-align: center;
+    padding: 10%;
+    
+}
+#journeyBlock{
+    font-size: large;
+    text-align: center;
+    background-color: burlywood;
+    padding: 5%;
+    margin: 2%;
+    border: 4px dashed darkslateblue;
+    border-radius: 25px;
+}
+#aboutBlock{
+    font-size: large;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 5%;
+    margin:2%;
+    border: 4px dashed darkslateblue;
+    border-radius: 25px;
+}
+#skillBlock{
+    font-size: large;
+    text-align: center;
+    background-color: lightcoral;
+    padding: 5%;
+    margin: 2%;
+    border: 4px dashed darkslateblue;
+    border-radius: 25px;
+}
+
+#progressBlock{
+    font-size: large;
+    text-align: center;
+    background-color: indianred;
+    padding: 5%;
+    margin: 2%;
+    border: 4px dashed darkslateblue;
+    border-radius: 25px;
+}
+#testBlock{
+    font-size: large;
+    text-align: center;
+    background-color:turquoise;
+    padding: 5%;
+    margin: 2%;
+    border: 4px dashed darkslateblue;
+    border-radius: 25px;
+}
+#contactBlock{
+    font-size: large;
+    text-align: center;
+    background-color: coral;
+    padding: 5%;
+    margin: 2%;
+    border: 4px dashed darkslateblue;
+    border-radius: 25px;
+}
