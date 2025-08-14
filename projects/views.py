@@ -6,11 +6,11 @@ import json
 
 # Create your views here.
 def landing(request):
-    return render(request, 'projects/landing.html')
+    return render(request, 'home.html')
 
 
 def Projects(request):
-    return render(request, 'projects/projects.html')
+    return render(request, 'projects.html')
 
 #API ROUTES
 @require_POST
