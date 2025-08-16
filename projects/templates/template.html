@@ -22,7 +22,7 @@
 </head>
 <body>
 	<div>
-		<div>
+		<div id="heroSection">
 			<h1>Morgan Bourne</h1>
 			<h2>Software Developer</h2>
 		</div>
@@ -49,23 +49,23 @@
 	
 	{%block body%}
 	{%endblock%}
-	<div style="margin-left: 30%; margin-right:30%;">
+	<div class="contentContainer" id="contactBlock" >
 		<h3>Contact Me</h3>
 		<p>have a project idea? looking to hire? fill the form below!</p>
-		 <form action="/action_page.php">
+		 <form action="#">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" placeholder=" Enter Name" id="name">
+			</div>
   			<div class="form-group">
     			<label for="email">Email address:</label>
     			<input type="email" class="form-control" placeholder="Enter email" id="email">
   			</div>
 			<div class="form-group">
-    			<label for="pwd">Password:</label>
-    			<input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    			<label for="msg">Message:</label>
+    			<textarea class="form-control" placeholder="Enter Message" id="msg" rows="5"></textarea>
   			</div>
-  			<div class="form-group form-check">
-    			<label class="form-check-label">
-      				<input class="form-check-input" type="checkbox"> Remember me
-    			</label>
-  			</div>
+  		
   			<button type="submit" class="btn btn-primary">Submit</button>
 		</form> 
 	</div>
