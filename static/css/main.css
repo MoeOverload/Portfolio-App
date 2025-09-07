@@ -39,3 +39,21 @@ body{
         list-style-type: none;
     }
 }
+
+#contactButton{
+    position: sticky;
+    top:85%;
+    left:3%;
+    width: 200px;
+    height: 75px;
+    color:midnightblue;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+#contactButton:hover{
+    color:cornflowerblue;
+    background-color: coral;
+    border-color: darkslategray;
+}

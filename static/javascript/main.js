@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () =>{
   const contactForm = document.getElementById('ContactForm')
   const nName = document.getElementById('name');
   const nEmail = document.getElementById('email');
-  const nMessage = document.getElementById('message');
+  const nMessage = document.getElementById('msg');
   const nFormSubmit = document.getElementById('formSubmit');
   
   //disable the submit button
@@ -52,5 +52,11 @@ document.addEventListener('DOMContentLoaded', () =>{
     });
     const data = await response.json();
     console.log(data);
+    alert('Message sent!') 
+    nFormSubmit.disabled = true;
+    nName.value = '';
+    nEmail.value = '';
+    nMessage.value = '';
   })
+  
 });
